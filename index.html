@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title></title>
+		<style>
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			.clear{
+				clear: both;
+			}
+			header{
+				height: 100px;
+				background-color: black;
+			}
+			#logo{
+				margin-top: 2px;
+				margin-left: 445px;
+			}
+			#top{
+				float: right;
+				margin: 27px 5px 0 0;
+				}
+				nav{
+					text-align: center;
+				height: 50px;
+			border: solid 1px orange;
+			background-color: pink;
+			padding-top: 10px;
+		}
+		nav li{
+			display: inline;
+			margin: 5px;
+		}
+		li{
+			list-style-type: none;
+		}
+		section{
+			float: left;
+		}
+		section li{
+			display: inline-block;
+		}
+		aside{
+			height: 270px;
+			float: right;
+			border: dotted 5px orange;
+			padding-left: 8px;
+			background-color: black;
+		}
+		aside li{
+			margin-top: 18px;
+			margin-bottom: 44px;
+			color: yellow;
+		}
+		footer{
+			width: 1687px;
+			height: 80px;
+			background-color: orange;
+			border: solid 2px pink;
+		}
+		#address{
+			float: right;
+			margin-top: 38px; 
+			font-weight: bold;
+		}
+		.mama{
+			display: inline-block;
+			margin-left: 100px;
+			color: gray;
+			font-weight: bold;
+		}
+		.mama1{
+			display: none;
+			background-color: #eeaaee;
+			position: absolute;
+			width: 120px;
+			height: 90px;
+			padding: 10px 12px;
+			font-size: 13px;
+			color: black;
+		}
+		.mama:hover .mama1{
+			display: block;
+		}
+		#button{
+			border-radius: 7px;
+			width: 50px;
+			height: 35px;
+		}
+		#button1{
+			border-radius: 7px;
+			width: 60px;
+			height: 35px;
+		}
+		table{
+			border-collapse: collapse;
+		}
+		input[type="text"]
+		{
+			background: pink;
+		}
+		input[type="texts"]
+		{
+			background: pink;
+		}
+		.pack{
+			color: orange;
+			font-weight: bold;
+		}
+		.pack1{
+			color: orange;
+			font-weight: bold;
+		}
+		input[type="checkbox"]
+		{
+			cursor: pointer;
+		}
+		input:focus{
+			background-color: white;
+		}
+		.view{
+			margin-left: 1440px;
+		}
+		a{
+			text-decoration: none;
+		}
+		span{
+			font-weight: bold;
+			font-size:18px;
+		}
+		.today{
+			color: orange;
+		}
+	</style>
+</head>
+<body>
+	<form>
+<div id="page">
+<header>
+	<div id="logo">
+		<a href="index.html"> <img src="./img/header.png" width="800" height="100"></a>
+	</div>
+	<div id="top">
+		  <button type="submit"> <img src="./img/search.jpg" width="20" height=13> </button><input type="search">
+	</div>
+</header>
+
+<table>
+	<tr>
+		<td class="pack">ID</td>
+		<td><input type="text"></td>
+		<td rowspan="2"><button type="button" id="button">로그인</button>
+		<td rowspan="2"><button type="button" id="button1">회원가입</button>
+		<td></td>
+		
+	</tr>
+	<tr>
+		<td class="pack1">PW</td>
+		<td><input type="texts" name=""></td>
+	</tr>
+</table>
+
+<div class="clear"></div>
+<nav>
+	<div class="mama">
+	<ul> 맛집소개
+		<div class="mama1">
+		<li><a href="bloggalary.html"> 블로거맛집소개</a></li>
+		<li>전문가맛집소개</li>
+		<li>일반인맛집소개</li>
+	</div>
+	</ul>
+	</div>
+	<div class="mama">
+	<ul> 지역별 맛집
+		<div class="mama1">
+		<li>경기도</li><br>
+		<li>강원도</li><br>
+		<li>충청도</li><br>
+		<li>전라도</li><br>
+		<li>경상도</li>
+	</div>
+	</ul>
+	</div>
+	<div class="mama">
+	<ul> 음식별 맛집
+		<div class="mama1">
+		<li>한식</li><br>
+		<li><a href="china.html"> 중식</li></a><br>
+		<li>일식</li><br>
+		<li>양식</li><br>
+		<li>가정식</li>
+	</div>
+	</ul>
+	</div>
+	<div class="mama">
+	<ul> 갤러리
+		<div class="mama1">
+		<li>블로거갤러리</li><br>
+		<li>일반인갤러리</li>
+	</div>
+	</ul>
+	</div>
+	<div class="mama">
+	<ul> 게시판
+		<div class="mama1">
+		<li>자유게시판</li><br>
+		<li>민원게시판</li><br>
+		<li><a href="Review.html"> 리뷰</a></li>
+	</div>
+	</ul>
+	</div>
+	<div class="mama">
+	<ul>오시는길
+		<div class="mama1">
+		<li><a href="traffic.html"> 대중교통</a></li>
+	</div>
+	</ul>
+	</div>
+</nav>
+
+<div class="clear"></div>
+<section><div>
+	<img src="./img/mainview.png" width="1690" height="380">
+</div>
+</section>
+
+	<section>
+		<ul>
+		<div class="gl">
+			<li><span>업종</span><br> 한국음식>찌개/전골/국/탕<br><span>매장소개</span><br>
+			치즈가 들어간 고소한 국물이 특징인 부대찌개 전문점입니다. 각종 햄과 다진 고기, 소시지를<br>
+			풍성하게 올려 내는 부대찌개가 대표메뉴입니다.<br>
+			넉넉한 양으로 인심을 자랑하며 공기밥 역시 무한리필됩니다.</li>
+			<li><span> TODAY</span><br>매장영업시간<br> 09:30 ~ 22:00 <span2>open</span2> <br> <span>영업시간</span><br>매일 09:30 ~ 22:00<br>
+			<span>휴무일</span><br>정기휴무 매월 첫째주(월)<br>연휴-설날 전체,연휴-설날 당일,연휴-설날 익일,연휴-설날 대체공휴일,연휴-추석 전체,연휴-추석 전일<br>연휴-추석 당일,연휴-추석 익일,연휴-추석 대체 공휴일</li>
+		</div>
+	</ul>
+	</section>
+
+<aside>
+	<ul>
+		<li>오늘의맛집 : 송탄 김네집</li>
+		<li>백종원3대천왕 출연 !</li>
+		<li>대표메뉴 : 부대찌개</li>
+		<li>인당 9000원, 포장가능</li>
+	</ul>
+</aside>
+
+<section class="clear">
+	<ul>
+		<div>
+			<li><a href="http://www.naver.com"> <img src="./img/coffee.png" width="1693" height="120"></a></li>
+		</div>
+	</ul>
+</section>
+
+<section class="clear">
+<footer>
+	<div id="address">
+		<small>홈페이지: yousumna.github.io<br>
+		이메일: dbtjd1606@naver.com</small> 
+	</div>
+</footer>
+</div>
+</form>
+
+
+</body>
+</html>

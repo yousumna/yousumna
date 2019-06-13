@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		header{
+			height: 100px;
+			background-color: black;
+		}
+		nav{
+			text-align: center;
+			height: 50px;
+			border: solid 1px orange;
+			background-color: pink;
+			padding-top: 10px;
+		}
+		nav li{
+			display: inline;
+			margin: 5px;
+		}
+		li{
+			list-style-type: none;
+		}
+		#logo{
+			margin-left: 445px;
+		}
+		.mama{
+			display: inline-block;
+			margin-left: 100px;
+			color: gray;
+			font-weight: bold;
+		}
+		.mama1{
+			display: none;
+			background-color: #eeaaee;
+			position: absolute;
+			width: 120px;
+			height: 90px;
+			padding: 10px 12px;
+			font-size: 13px;
+			color: black;
+		}
+		.mama:hover .mama1{
+			display: block;
+		}
+		footer{
+			width: 1690px;
+			height: 100px;
+			background-color: orange;
+			margin-top: 12px;
+		}
+		.call{
+			float: right;
+			margin-top: 73px;
+			font-weight: bold;
+		}
+		a{
+			text-decoration: none;
+		}
+		div.al1{
+			width: 100px;
+			height: 50px;
+			transition: width 2s, height 2s,font-size 2s, transform 3s;
+			margin-top: 50px;
+			font-size: 32px;
+			background-image: linear-gradient(to right,brown,green);
+			transform: skew(30deg,10deg);	
+			color: white;
+			font-weight: bold;
+		}
+		div.al1:hover{
+			width: 680px;
+			height: 100px;
+			font-size: 77px;
+		}
+		div.al2{
+			width: 100px;
+			height: 50px;
+			transition: width 2s, height 2s,font-size 2s, transform 3s;
+			margin-top: 50px;
+			background-image: linear-gradient(to right,red,orange,yellow,red);
+			transform: skew(30deg,10deg);
+			color: white;
+			font-weight: bold;
+			font-size: 32px;
+		}
+		div.al2:hover{
+			width: 800px;
+			height: 100px;
+			font-size: 77px;
+		}
+		div.al3{
+			width: 100px;
+			height: 50px;
+			transition: width 2s, height 2s,font-size 2s, transform 3s;
+			margin-top: 50px;
+			transform: skew(30deg,10deg);
+			background-image: linear-gradient(to right,yellow,orange,yellow,orange);
+			font-weight: bold;
+			font-size: 32px;
+		}
+		div.al3:hover{
+			width: 680px;
+			height: 100px;
+			font-size: 77px;
+		}	
+		.jja{
+			margin-left: 620px;
+			font-size: 35px;
+		}
+		.jjam{
+			margin-left: 380px;
+			font-size: 35px;
+		}
+		.tang{
+			margin-left: 620px;
+			font-size: 35px;
+		}
+		.jongwon{
+			margin-left: 360px;
+		}
+		.young{
+			margin-left: 330px;
+		}
+		.bin{
+			font-size: 40px;
+			font-weight: bold;
+			color: skyblue;
+			margin-left: 590px;
+		}
+		span{
+			color: orange;
+		}
+	</style>
+</head>
+<body>
+
+	<header>
+	<div id="logo">
+		<a href="index.html"> <img src="./img/header.png" width="800" height="100"></a>
+	</div>
+	</header>
+
+	<nav>
+	<div class="mama">
+	<ul> 맛집소개
+		<div class="mama1">
+		<li><a href="bloggalary.html"> 블로거맛집소개</a></li>
+		<li>전문가맛집소개</li>
+		<li>일반인맛집소개</li>
+	</div>
+	</ul>
+	</div>
+	<div class="mama">
+	<ul> 지역별 맛집
+		<div class="mama1">
+		<li>경기도</li><br>
+		<li>강원도</li><br>
+		<li>충청도</li><br>
+		<li>전라도</li><br>
+		<li>경상도</li>
+	</div>
+	</ul>
+	</div>
+	<div class="mama">
+	<ul> 음식별 맛집
+		<div class="mama1">
+		<li>한식</li><br>
+		<li><a href="china.html"> 중식</li></a><br>
+		<li>일식</li><br>
+		<li>양식</li><br>
+		<li>가정식</li>
+	</div>
+	</ul>
+	</div>
+	<div class="mama">
+	<ul> 갤러리
+		<div class="mama1">
+		<li>블로거갤러리</li><br>
+		<li>일반인갤러리</li>
+	</div>
+	</ul>
+	</div>
+	<div class="mama">
+	<ul> 게시판
+		<div class="mama1">
+		<li>자유게시판</li><br>
+		<li>민원게시판</li><br>
+		<li><a href="Review.html"> 리뷰</a></li>
+	</div>
+	</ul>
+	</div>
+	<div class="mama">
+	<ul>오시는길
+		<div class="mama1">
+		<li><a href="traffic.html"> 대중교통</a></li>
+	</div>
+	</ul>
+	</nav>
+
+	<section>
+		<div class="bin">
+		[송탄 중국맛집 - <span>영빈루</span>]
+		</div>
+	</section>
+
+	<section>
+		<ul>
+			<div class="jongwon">
+				<img src="./img/jongwon.jpg" width="880" height="190">
+			</div>
+		</ul>
+	</section>
+
+	<section>
+		<ul>
+			<div class="young">
+				<img src="./img/young.png" width="930" height="68">
+			</div>
+		</ul>
+	</section>
+
+	<section>
+		<ul>
+		<div class="al1">
+			<li>짜장면</li>
+		</div>
+		<div class="jja">
+				<li><img src="./img/jja.jpg" width="300" height="220">짜장면도맛있다.</li>
+		</div>
+		<div class="al2">
+			<li>짬뽕</li>
+		</div>
+		<div class="jjam">
+			<li>백종원이 극찬한 짬뽕<img src="./img/jjam1.jpg" width="300" height="220"></li>
+		</div>
+		<div class="al3">
+			<li>탕수육</li>
+		</div>
+		<div class="tang">
+			<li><img src="./img/tang.jpg" width="300" height="220">백종원이 극찬한 탕슈육</li>
+		</div>
+	</ul>
+	</section>
+
+	<footer>
+		<div class="call">
+		<small>전화문의:031-666-3648</small>
+	 	</div>
+	</footer>
+
+</body>
+</html>
